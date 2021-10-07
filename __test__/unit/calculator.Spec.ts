@@ -6,9 +6,9 @@ test("Should sum numbers correctly", () => {
 
 //=======================================================================//
 const filterFn = jest.fn();
-filterFn.mockReturnValueOnce(true).mockReturnValueOnce(false);
-const result = [11,12].filter(num => filterFn(num));
-//console.log(result);
+filterFn.mockReturnValueOnce(10).mockReturnValueOnce(100);
+const result = [11,12].map(num => filterFn(num));
+console.log(result);
 
 let fn = (num) => num === 11 ? true : false;
 //console.log([11,12].filter(num => fn(num)))
