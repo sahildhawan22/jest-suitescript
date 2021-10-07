@@ -1,0 +1,7 @@
+<manifest projecttype="SUITEAPP">
+  <publisherid>com.netsuite</publisherid>
+  <projectid>jestwithtdd</projectid>
+  <projectname>Jest With TDD</projectname>
+  <projectversion>1.00.0</projectversion>
+  <frameworkversion>1.0</frameworkversion>
+</manifest>
